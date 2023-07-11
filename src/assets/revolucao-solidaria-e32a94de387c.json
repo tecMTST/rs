@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "revolucao-solidaria",
+  "private_key_id": "e32a94de387c6d19e3a12f531a1d791f0e0e50dc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHT+x+92mYxupE\nsb38SKNgt8KRFhMq8NSjcm2QtW8HoDWNgf+jQbVUrdkSMEN4ExAcs3uqZpZVGJC3\nhaOzpmb9WRap+RE0iuprI9lxpG8aYWqGve+Z1yvc3Mx2PUWHYI7hiOEQ3Edv0vNc\nDPZKRhRuaySt3UDE6ieA+XXt3QlaXT1VvMEWkrbu1riv/zo2mGkPBIlzaDcpeQDl\n+ig/8kTkE9wJ+qwveMYPTTXH17j35gapxjnci7SuwlbTPCznna+nYjuVgi44DRbm\nNYEt2Z3sR5ZEZfBLmyjjZQ8yHd+7dJddBC5neL3nxMhZpqIpzpOq0BzcxVhBRQm+\ncmVKXag/AgMBAAECggEABS/Rxj4XC+hFSXNcr9eOFOLDV/Y8mnX4+qXsLwNht8+W\nBTA4YF3B48nAZ+ZEozfPyAdttPIFgIJqpbP/Hho6/OXYHqVCKt1gm1gr/PacA5I8\nbPQ9a4H7fLxsP7l5eTvsi/b9cGxjGYhiV+doc2deeb8lDbc/y8ASNhuH06BYcXcG\n8Jnuk0QdDx0gDtXkRVPRdnhgjUVcdkVa/KljvK3qYYM25sdim1gl+3ad+9C+8/4m\nIB3vLImbm56ljol2uwPj1oiKHcupi0hWXxQVer8wvfnbZtaw7Q2tCl/MExxP4V15\nyYL5ji0rDzxMjqLk/Eyw2S7dZirocb+rKbeEDm/5IQKBgQDrwYpiaCqnkjCFo/yl\nzXUYb9TXdw3AKYaNRYf2NqQrJ51A+V9b4/I9jJQRuNaobXiVaEDEQfqQGzzQ8puL\nNDPFAol7Yk2NbkCWD33WQw+PyL6+QYAG+ZNpHCX/vNC6OUEpApBO6neDBeMN9N8e\nAiCPdSeeXgd38yHe/wiI4MXnoQKBgQDYbUOuIYHA+WdbDh57nGJ27gOjBz+2LFRu\nEgRpHRiBPiM8k4c3kZXLcIu+JikaCVLuegancSvgeHcC9d0oa8v0oyON8L5L1qaB\nE5c8nfx9ykieRHqflVYDd5Dy89rYQRP2MrYO5eSZnI46JARwiZhhJF1Hxx7AKOUc\n4WKKPQID3wKBgBji1z7IDCigL+sLgnHmHEQ2Gducv6DXQVLMUivVXMMJbXocWMqU\nZ0/D9SVhw5cH50CuPpf49wAbP/I2ieDJ4+UZ/XU+zTzutHair//cGFpvMGNY+rDB\ny6O+yuwR/F6MCKrRkHYkHfWAu5UPkjXSt6ktDr+S4WryCVNGzJnWUE3BAoGAfK8W\nGq97DS2h+bc8oIILx/B/b+CxN8Z6LZ97owL8JxkhO7jSYZUh8z43g6iAbVuJx5HN\nW5G7cWp1ReNXMf5IVfvWc+OJ/i7/ZcVfj7CE0gNDqspQyrdCAmVTwGP0ZDm5wlCc\nyiBvfn/PAHfXhu3+N5i3lK6GbLYiqGzAVFupWYkCgYEA4LLJUYfNNU7eWh6hl3rB\nLhPU2mm4b09HTcreU6SFJUuaTFA8Dkg7ML2o1eIgQWPMFk4UfGrVI8xmA66r17FW\nocAwh5YND+4P/eGQejNBnVWHS6XVcWkqfWzDMbYZifd6B4CIPnL3Hs8qohcnCdoa\nZy7/S2BhNRWLIZPSQPuvO0k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rs-sheets@revolucao-solidaria.iam.gserviceaccount.com",
+  "client_id": "105525859695063543671",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rs-sheets%40revolucao-solidaria.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
