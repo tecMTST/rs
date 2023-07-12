@@ -2,22 +2,23 @@ import './App.css'
 import guilhermeBoulos from './assets/boulos.jpg'
 import logo from './assets/psol.svg'
 import { useForm } from 'react-hook-form'
+import { collection, addDoc } from 'firebase/firestore'
+import { db } from './firebase'
 
 function App() {
-  const { register, handleSubmit } = useForm()
-  const scriptUrl =
-    'https://script.google.com/macros/s/AKfycbx7U35DqF8cgm-8ECzAkIpNNevHLIOU0hlCeDFq9yiyPRmULkjgSJ-WpGVVr1i9FNVDmg/exec'
+  const { register, handleSubmit, getValues} = useForm()
 
-  const onSubmit = e => {
-    
+  const addTodo = async e => {
+    const values = getValues()
+    console.log(values)
 
-    console.log(e)
-
-    fetch(scriptUrl, { method: 'POST', body: e , mode: "cors"})
-      .then(res => {
-        console.log(res)
-      })
-      .catch(err => console.log(err))
+    try {
+      console.log('chamei')
+      const docRef = await addDoc(collection(db, 'filiados'), values)
+      console.log('Document written with ID: ', docRef.id)
+    } catch (e) {
+      console.error('Error adding document: ', e)
+    }
   }
 
   return (
@@ -26,21 +27,25 @@ function App() {
         <img id="logo" src={logo} />
         <h1>Atenção filiado!</h1>
         <h2>O 8ºcongresso vem aí! Quer saber como participar?</h2>
-        <form onSubmit={handleSubmit(onSubmit)} >
+        <form onSubmit={handleSubmit(addTodo)}>
           <label>
             Nome completo:
-            <input {...register("nome")}/>
+            <input {...register('nome')} />
           </label>
           <label>
             WhatsApp:
-            <input {...register("whatsapp")}/>
+            <input type='number' {...register('whatsapp')} />
           </label>
           <label>
             Cidade:
-            <input {...register("cidade")}/>
+            <input {...register('cidade')} />
           </label>
         </form>
-        <a href="http://wa.me/5511982871523" target="_blank" onClick={handleSubmit(onSubmit)}>
+        <a
+          href="http://wa.me/5511982871523"
+          target="_blank"
+          onClick={addTodo}
+        >
           CLIQUE AQUI E RECEBA AS INFORMAÇÕES
         </a>
       </div>
